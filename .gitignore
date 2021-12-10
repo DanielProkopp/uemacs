@@ -1,2 +1,6 @@
 em
 *.o
+*.idx
+*.bin
+build/*
+.vscode
