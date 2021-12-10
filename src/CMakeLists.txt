@@ -97,5 +97,7 @@ add_custom_target(
     COMMAND
         ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}
 
+    DEPENDS
+        ${PROJECT_NAME}
     USES_TERMINAL
 )
